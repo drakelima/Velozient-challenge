@@ -27,3 +27,8 @@ The assumptions made are:
 The project solution does not rely on any external dependencies or libraries. It only uses standard Java libraries available in Java 11, such as `java.nio.file.Files` for reading the input file, `java.nio.file.Path` for defining the file path, and Java Streams API for processing the data.
 
 To write, compile, and execute the code, you can use any Java IDE or text editor that supports Java 11, such as IntelliJ IDEA, Eclipse, or Visual Studio Code. To compile the code, use the Java 11 compiler `javac` with the command `javac DroneDeliveryService.java`, and to execute the compiled code, use the Java 11 runtime `java` with the command `java DroneDeliveryService`.
+
+## Considerations about the input model
+The input was changed. The file is already in the project (input.txt and input2.txt) which can be tested and switched changing in the class DroneDeliveryService. To run it, just run the same class.
+
+
